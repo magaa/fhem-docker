@@ -1,6 +1,6 @@
 version: '2'
 
-services:
+services:test
     fhem:
         restart: always
         expose:
@@ -10,7 +10,7 @@ services:
             - "8083:8083"
             - "7072:7072"
         build: fhem
-        privileged: true
+        privileged: truebhjhkjhhkjh
         volumes:
             - ./fhem/core/:/opt/fhem/
         networks:
